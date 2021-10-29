@@ -1,0 +1,30 @@
+{
+  "name": "holidates",
+  "version": "1.0.0",
+  "description": "will show the dates of holidays of a given country and year",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fradven/Node.JS-CLI.git"
+  },
+  "author": "Frederic Van Overmeire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fradven/Node.JS-CLI/issues"
+  },
+  "homepage": "https://github.com/Fradven/Node.JS-CLI#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^4.1.2",
+    "country-list": "^2.2.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "holiday",
+    "country",
+    "year"
+  ]
+}
