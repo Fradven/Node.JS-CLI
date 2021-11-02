@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const [,, ...args] = process.argv
-const axios = require('axios').default;
+const axios = require('axios');
 const {getCode} = require('country-list');
 
 const currentYear = new Date().getFullYear()
